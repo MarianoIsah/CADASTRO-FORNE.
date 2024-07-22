@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="css/style.css">
+  <title>Cadastro de Fornecedor</title>
+</head>
+<body>
+   <div class="conteiner">
+        <div class="form-image">
+            <img src="img/imgKing.png" alt="Logo King Star">
+       </div>
+       <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>    
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">Entrar</a></button>
+                    </div>
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="firstname">Tipo de Serviço:</label>
+                            <input id="firstname" type="text" name="firstname" placeholder="Digite seu preimeiro nome"required>
+                        </div>
+                    <!--pula linha-->
+                    <div class="input-box">
+                        <label for="firstname">Nome do Fornecedor:</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu preimeiro nome"required>
+                    </div>
+                     <!--pula linha-->
+                     <div class="input-box">
+                        <label for="firstname">Área Responsável:</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu preimeiro nome"required>
+                     </div>
+                     <!--pula linha-->
+                     <div class="input-box">
+                        <label for="firstname">Colaborador Responsável:</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu preimeiro nome"required>
+                    </div>
+                      <!--pula linha-->
+                      <div class="input-box">
+                        <label for="firstname">Contato/Portal de acesso:</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu preimeiro nome"required>
+                       <!--pula linha-->                     
+                    </div>    
+
+                    
+                </div>
+            </form>
+       </div>
+    </div>
+</body>
+</html>
